@@ -1,7 +1,7 @@
 import os
 from flask import Flask, request, jsonify
 from flask_jwt_extended import JWTManager, create_access_token, jwt_required, get_jwt_identity
-from dotenv import load_load_dotenv
+from dotenv import load_dotenv
 from models import db, User, Task
 
 # Load environment configuration variables
